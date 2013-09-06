@@ -1,5 +1,5 @@
 = simple_form_for @listing do |f|
 	= f.input :url
-	= f.input :monthly_rent
-	= f.input :address
+	= f.input :monthly_rent, required: false
+	= f.input :address, required: false
 	= f.button :submit

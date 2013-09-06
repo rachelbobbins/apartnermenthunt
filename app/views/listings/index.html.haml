@@ -1,3 +1,5 @@
 %table
 	- @listings.each do |listing|
-		%tr= listing.url
+		%tr
+			%td= listing.url
+			%td= listing.monthly_rent

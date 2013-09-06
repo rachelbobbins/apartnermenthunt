@@ -44,6 +44,7 @@ gem 'nokogiri'
 gem 'haml-rails', '>= 0.3.4'
 gem 'haml'
 gem 'simple_form'
+gem 'pry'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
