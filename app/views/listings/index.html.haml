@@ -1,2 +1,3 @@
-- @listings.each do |listing|
-	= listing.url
+%table
+	- @listings.each do |listing|
+		%tr= listing.url

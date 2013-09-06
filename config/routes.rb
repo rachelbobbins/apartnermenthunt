@@ -3,6 +3,7 @@ Apartnermenthunt::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   root 'listings#index'
+  resources :listings
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
